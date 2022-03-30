@@ -6,7 +6,7 @@ class ShoppingBasket {
   }
 
   addItem(candy) {
-    this.basket.push([candy.name, candy.price])
+    this.basket.push([candy.getName(), candy.getPrice()])
   }
 
   getTotalPrice() {

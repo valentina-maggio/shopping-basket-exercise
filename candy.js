@@ -1,15 +1,18 @@
 class Candy {
+  #name = "";
+  #price = 0;
+
   constructor(name, price) {
-    this.name = name;
-    this.price = price;
+    this.#name = name;
+    this.#price = price;
   }
 
     getName() {
-      return this.name;
+      return this.#name;
     }
 
     getPrice() {
-      return this.price;
+      return this.#price;
     }
 }
 
